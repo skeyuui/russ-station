@@ -129,8 +129,6 @@ GLOBAL_LIST_INIT(admin_verbs_fun, list(
 	/client/proc/show_tip,
 	/client/proc/smite,
 	/client/proc/honk_smite, // honk -- new smites
-	/client/proc/twitchmeteor, // honk -- twitch intergration
-	/client/proc/twitch_command_announcement, //honk -- twitch intergration
 	/client/proc/summon_ert,
 	/client/proc/toggle_nuke,
 	/client/proc/toggle_random_events,
