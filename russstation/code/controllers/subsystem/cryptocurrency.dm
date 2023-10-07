@@ -65,7 +65,7 @@ SUBSYSTEM_DEF(cryptocurrency)
 
 /datum/controller/subsystem/cryptocurrency/Initialize(timeofday)
 	// coin of the day
-	coin_name = pick(world.file2list("russstation/strings/crypto_names.txt"))
+	coin_name = pick(GLOB.crypto_names)
 	// initialize event cache - copied from SSevents
 	for(var/type in subtypesof(/datum/round_event_control/cryptocurrency))
 		var/datum/round_event_control/cryptocurrency/E = new type()

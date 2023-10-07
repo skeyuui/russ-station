@@ -4,6 +4,16 @@ GLOBAL_LIST_INIT(wizard_second, world.file2list("strings/names/wizardsecond.txt"
 GLOBAL_LIST_INIT(ninja_titles, world.file2list("strings/names/ninjatitle.txt"))
 GLOBAL_LIST_INIT(ninja_names, world.file2list("strings/names/ninjaname.txt"))
 GLOBAL_LIST_INIT(commando_names, world.file2list("russstation/strings/russ_death_commando.txt")) // honk -- replaced by our file
+// honk start - russ names in different file is giving weird runtimes
+GLOBAL_LIST_INIT(diona_first, world.file2list("russstation/strings/names/diona_first.txt"))
+GLOBAL_LIST_INIT(diona_last, world.file2list("russstation/strings/names/diona_last.txt"))
+GLOBAL_LIST_INIT(dwarf_first, world.file2list("russstation/strings/names/dwarf_first.txt"))
+GLOBAL_LIST_INIT(dwarf_last, world.file2list("russstation/strings/names/dwarf_last.txt"))
+GLOBAL_LIST_INIT(skaven_first, world.file2list("russstation/strings/names/skaven_first.txt"))
+GLOBAL_LIST_INIT(skaven_last, world.file2list("russstation/strings/names/skaven_last.txt"))
+GLOBAL_LIST_INIT(kitsune_first, world.file2list("russstation/strings/names/kitsune_first.txt"))
+GLOBAL_LIST_INIT(kitsune_last, world.file2list("russstation/strings/names/kitsune_last.txt"))
+// honk end
 GLOBAL_LIST_INIT(first_names, world.file2list("strings/names/first.txt"))
 GLOBAL_LIST_INIT(first_names_male, world.file2list("strings/names/first_male.txt"))
 GLOBAL_LIST_INIT(first_names_female, world.file2list("strings/names/first_female.txt"))
